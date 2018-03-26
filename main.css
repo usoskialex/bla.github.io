@@ -1,1 +1,15 @@
-body { background-color: coral; }
+body {
+    background-color: coral;
+}
+
+h1 {
+    color: maroon;
+    margin-left: 30%;
+    margin-right: 30%;
+} 
+
+h2 {
+    color: blueviolet;
+    margin-left: 30%;
+    margin-right: 30%;
+}
