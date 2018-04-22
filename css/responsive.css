@@ -13,22 +13,73 @@ div.one-third-last {
 	padding: 20px 0 0 0;
 }
 
-div.nav ul li {
-	width: 25%;
-	border-bottom: 1px solid #bababa;
+@media screen and (max-width: 1024px) {
+	.nlist {
+		width: 90%;
+		font-size: 100%;
+		margin: auto;
+	}
+
+	.nItem {
+		margin-left: 3%;
+		margin-right: 3%;
+	}
 }
 
+
+
+@media screen and (max-width: 768px) {
+	.nlist {
+		width: 90%;
+		font-size: 100%;
+		margin: auto;
+	}
+
+	.nItem {
+		margin-left: 3%;
+		margin-right: 3%;
+	}
+}
+
+
 @media screen and (max-width: 620px) {
-	div.nav ul li {
-		width: 33%;
+	.nlist {
+		width: 90%;
+		font-size: 100%;
+		margin: auto;
+	}
+
+	.nItem {
+		margin-left: 3%;
+		margin-right: 3%;
 	}
 }
 
 @media screen and (max-width: 500px) {
 	
-	div.nav ul li {
-		width: 50%;
-		font-size: 85%;
+	.nlist {
+		width: 70%;
+		font-size: 100%;
+		margin: auto;
+	}
+
+	.nItem {
+		margin-left: 3%;
+		margin-right: 3%;
+	}
+	
+@media screen and (max-width: 320px) {
+	
+	.nlist {
+		width: 80%;
+		font-size: 80%;
+		margin:initial;
+		text-align: center;
+	}
+
+	.nItem {
+		margin-left: 4%;
+		margin-right: 4%;
 	}
 	
 	div.mobile-collapse {
@@ -37,8 +88,5 @@ div.nav ul li {
 		margin-right: 0;
 	}
 	
-	.hide-mobile {
-		display: none;
-	}
 		
 }

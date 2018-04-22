@@ -1,6 +1,12 @@
-h1, h2, h3, h4, h5, h6, p {
+h2, p {
 	margin: 0;
 	padding: 0;
+    text-align: justify;
+}
+
+h2 {
+    text-align: center !important;
+    padding-bottom: 6px;
 }
 
 p {
@@ -9,7 +15,7 @@ p {
 }
 
 body {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Lato', sans-serif;
 	padding: 0;
 	margin: 0;
 
@@ -35,28 +41,27 @@ div.header {
 }
 
 /* Navigation */
-div.nav {
-	background-color: hsl(0, 4%, 49%);
+.nav {
+  font-family: 'Nunito', sans-serif;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f9f9f9;
 }
 
-div.nav ul {
-	margin: 0;
-	padding: 0;
+.nlist {
+  width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
-div.nav ul li {
-	list-style: none;
-	float: left;
-	font-size: 93%;
-}
-
-div.nav ul li a:link,
-div.nav ul li a:visited {
-	display: block;
-	padding: 10px 15px;
-	text-decoration: none;
-	color: #000;
-	border-right: 1px solid #bababa;
+.nItem {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+  line-height: 24px;
+  padding: 24px;
 }
 
 /* Body Content */
@@ -82,12 +87,6 @@ div.one-third-last {
 
 /* Main Column */
 div.main {
-	width: 65%;
 	float: left;
-	margin-right: 5%;
 }
 
-
-.clearfix:before, .clearfix:after { content: ""; display: table; }
-.clearfix:after { clear: both; }
-.clearfix { *zoom: 1; }
