@@ -90,3 +90,23 @@ div.main {
 	float: left;
 }
 
+/* svg animation */
+
+.svgmoon {
+    transition: all 1.5s;
+}
+
+svg:hover .svgmoon {
+    fill: gold;
+    transform: scale(.9);
+}
+
+svg:hover .svgstar1,
+svg:hover .svgstar2,
+svg:hover .svgstar3,
+svg:hover .svgstar4,
+svg:hover .svgstar5 {
+    fill: yellow;
+    transform:rotate(30deg);
+    transition: transform 1.5s;
+}
