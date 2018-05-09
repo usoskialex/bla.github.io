@@ -52,6 +52,7 @@
 
 }
 
+
 div: .icon-facebook2, .icon-instagram, .icon-github {
     
     display:inline-block;
@@ -60,4 +61,9 @@ div: .icon-facebook2, .icon-instagram, .icon-github {
 .iconset {
     margin-left: 80%;
     
+}
+
+#move{
+      content: "\e916";
+    color: silver;
 }
