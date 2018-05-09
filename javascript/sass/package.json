@@ -1,0 +1,11 @@
+{
+  "name": "testpackages",
+  "version": "0.1.0",
+  "description": "a sample exercise working with packages",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Usoski",
+  "license": "ISC"
+}

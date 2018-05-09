@@ -13,7 +13,23 @@ div.one-third-last {
 	padding: 20px 0 0 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
+	.nlist {
+		width: 100%;
+		font-size: 100%;
+		margin: auto;
+	}
+
+	.nItem {
+		margin-left: 5%;
+		margin-right: 3%;
+
+	}
+}
+
+
+
+@media screen and (min-width: 768px) {
 	.nlist {
 		width: 90%;
 		font-size: 100%;
@@ -27,8 +43,7 @@ div.one-third-last {
 }
 
 
-
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 620px) {
 	.nlist {
 		width: 90%;
 		font-size: 100%;
@@ -41,38 +56,33 @@ div.one-third-last {
 	}
 }
 
-
-@media screen and (max-width: 620px) {
-	.nlist {
-		width: 90%;
-		font-size: 100%;
-		margin: auto;
-	}
-
-	.nItem {
-		margin-left: 3%;
-		margin-right: 3%;
-	}
-}
-
-@media screen and (max-width: 500px) {
-	
-	.nlist {
-		width: 70%;
-		font-size: 100%;
-		margin: auto;
-	}
-
-	.nItem {
-		margin-left: 3%;
-		margin-right: 3%;
-	}
-	
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 500px) {
 	
 	.nlist {
 		width: 80%;
-		font-size: 80%;
+		font-size: 90%;
+		margin: initial;
+        text-align: center;
+	}
+
+	.nItem {
+		margin-left: 5%;
+		margin-right: 3%;
+        display:inline-block;
+	}
+    
+    
+    #Layer_1, #Layer_2, h3 {
+    width: 35%;
+    margin-left:10%;
+	}
+    
+	
+@media screen and (min-width: 320px) {
+	
+	.nlist {
+		width: 100%;
+		font-size: 100%;
 		margin:initial;
 		text-align: center;
 	}
@@ -87,4 +97,5 @@ div.one-third-last {
 		float: none;
 		margin-right: 0;
 	}	
+    
 }
