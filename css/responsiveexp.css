@@ -1,0 +1,136 @@
+@media screen and (min-width: 1024px) {
+            #lefttopmenu{
+                height: 50px;
+                width: 30%;
+                background-color: #71989f;
+                border-radius: 0px 120px 0px 0;
+                float: left;
+            }
+            
+            #righttopmenu{
+                height: 50px;
+                width: 30%;
+                background-color: #71989f;
+                border-radius: 220px 0px 0px 20px;
+                float: right;
+            }
+            
+             #midbotmenu{
+                height: 50px;
+                margin-top: 40%;
+                margin-left: 45%;
+                width: 10%;
+                background-color: #71989f;
+            }
+}
+
+
+
+@media screen and (min-width: 768px) {
+            #lefttopmenu{
+                height: 50px;
+                width: 30%;
+                background-color: #71989f;
+                border-radius: 0px 120px 0px 0;
+                float: left;
+            }
+            
+            #righttopmenu{
+                height: 50px;
+                width: 30%;
+                background-color: #71989f;
+                border-radius: 220px 0px 0px 20px;
+                float: right;
+            }
+            
+             #midbotmenu{
+                height: 50px;
+                margin-top: 40%;
+                margin-left: 45%;
+                width: 10%;
+                background-color: #71989f;
+            }
+}
+
+
+@media screen and (min-width: 620px) {
+            #lefttopmenu{
+                height: 50px;
+                width: 30%;
+                background-color: #71989f;
+                border-radius: 0px 120px 0px 0;
+                float: left;
+            }
+            
+            #righttopmenu{
+                height: 50px;
+                width: 30%;
+                background-color: #71989f;
+                border-radius: 220px 0px 0px 20px;
+                float: right;
+            }
+            
+             #midbotmenu{
+                height: 50px;
+                margin-top: 40%;
+                margin-left: 45%;
+                width: 10%;
+                background-color: #71989f;
+            }
+}
+
+@media screen and (min-width: 500px) {
+	
+            #lefttopmenu{
+                height: 50px;
+                width: 30%;
+                background-color: #71989f;
+                border-radius: 0px 120px 0px 0;
+                float: left;
+            }
+            
+            #righttopmenu{
+                height: 50px;
+                width: 30%;
+                background-color: #71989f;
+                border-radius: 220px 0px 0px 20px;
+                float: right;
+            }
+            
+             #midbotmenu{
+                height: 50px;
+                margin-top: 40%;
+                margin-left: 45%;
+                width: 10%;
+                background-color: #71989f;
+            }
+}
+    
+	
+@media screen and (min-width: 320px) {
+	
+	#lefttopmenu{
+                height: 50px;
+                width: 30%;
+                background-color: #71989f;
+                border-radius: 0px 120px 0px 0;
+                float: left;
+            }
+            
+            #righttopmenu{
+                height: 50px;
+                width: 30%;
+                background-color: #71989f;
+                border-radius: 220px 0px 0px 20px;
+                float: right;
+            }
+            
+             #midbotmenu{
+                height: 50px;
+                margin-top: 40%;
+                margin-left: 45%;
+                width: 10%;
+                background-color: #71989f;
+            } 
+    
+}
