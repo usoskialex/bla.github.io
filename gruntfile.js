@@ -12,9 +12,17 @@ module.exports = function(grunt) {
                     sourceMap: false
                 },
                 dist: {
+                    options: {
+                        style: 'expanded',
+                        require: 'susy'
+                    },
+                    
+                    
+                    
+                    
                    files: {
                     'css/style.css':
-                    'assets/scss/style.scss'
+                    'assets/scss/styles.scss'
                           }
                       }
                   },
@@ -59,8 +67,8 @@ module.exports = function(grunt) {
                 dest: 'css',
                 ext: '.min.css'
                 }]
+              }
         }
-
 	});
 
 	//Loading Grunt plugins and tasks
@@ -69,10 +77,11 @@ module.exports = function(grunt) {
     
     
 	//Custom tasks
-	grunt.registerTask('default', ['sass']);
     grunt.loadNpmTasks('grunt-contrib-watch');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-jshint');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
+        
+    grunt.registerTask('default', ['sass']);
 
 };
