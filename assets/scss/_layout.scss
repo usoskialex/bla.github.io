@@ -1,0 +1,22 @@
+//susy setup
+$susy: (
+    colums: 3, 
+    gutters: 0.5,
+    'spread': 'narrow',
+);
+
+.body-content {
+    @include container(70%);
+}
+
+.one-third one-third-first mobile-collapse .one-third one-third-second mobile-collapse .one-third one-third-last mobile-collapse {
+    @include span (2);
+    
+    @:last-child {
+        @include last;
+    }
+}
+
+$mobile: 320px;
+$tablet: 560px;
+$desktop: 1024px;
