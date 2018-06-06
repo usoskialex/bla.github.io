@@ -5,67 +5,84 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	
-	<title>About Page</title>
+	<title>Aliaksandr Usoski About Page</title>
 	
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	
 	<!-- css -->
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/responsive.css" media="screen and (max-width: 900px)">
+	<link rel="stylesheet" href="css/main2.css">
+	<link rel="stylesheet" href="css/responsivemain.css">
     <link rel="stylesheet" href="css/style.css">
-
-    <!-- fonts -->
+    <link rel="stylesheet" href="fontstylemain/style.css">
+    
+    
+    <!--CDN link for  TweenMax-->
+<script src="javascript/TweenMax.min.js"></script>
+    
+    
+        <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato|Nunito" rel="stylesheet">
-	
+    <link href="https://fonts.googleapis.com/css?family=Aldrich|Special+Elite" rel="stylesheet">
+    
+    
+    
 </head>
 <body>
 
 	<!-- HEADER -->
-	<div class="header"><div class="section-inner">
-		<h1>ALIAKSANDR USOSKI</h1>
-        
+	<div class="header">
+		<h1>Alex Usoski</h1>
+        <h3> UX\UI dreamer designer</h3>
         <div class="iconset"> 
-            <span class="icon-facebook2"></span>
-            <span class="icon-github"></span>
-            <span class="icon-instagram"></span>
+            <a href="https://www.facebook.com/profile.php?id=100006928360380&fref=pymk"><span class="icon-facebook2"></span></a><a href="https://github.com/usoskialex">
+            <span class="icon-github"></span></a>
         </div>
+
         
-	</div></div>
-	
-	<!-- NAVIGATION -->
-    <nav class="nav">
-      <ul class="nlist">
-        <li class="nItem"><span class="icon-pacman"></span><a href="index.html">HOME</a></li>
-        <li class="nItem"><span class="icon-evil2"></span><a href="about.html">ABOUT</a></li>
-        <li class="nItem"><span class="icon-leaf"><a href="gallery.html">GALLERY</a></li>
-      </ul>
-    </nav>
-	
-	<!-- BODY -->
-	<div class="body-content"><div class="section-inner">
-		
-		
-		<!-- two-columns -->
-		<div class="two-columns clearfix">
-			
-			<!-- main -->
-			<div class="main mobile-collapse">
-				
-				<h2>About me</h2>
-				
-				<p>Blowfish librantur in se quatuor, quinquies maior quam normalis, et quare? Quare id faciam? Ut terrorem facit, qui quid. Terrent! Ut alter, scarier pisces agminis off. Et quod tu es? Vos blowfish. Tu iustus in omnibus visio. Vides ... suus ' suus 'non aliud aerem. Nunc ... qui cum partibus blowfish Isai? Tu damnare ius. Vos blowfish. Dicere iterum. Dicere illam quasi velis eam. Es BLOWFISH! </p>
-				
-				
-			</div><!--/main-->
-			
-			
-		</div>
-		
-	
         
-    </div>
+        <a href="index.html"><span class="icon-home3"></span></a>
+	</div>
+	
+	<!-- NAVIGATION --> 
+
+	
+	<!-- BODY --><div class="mainsection">
+		
     
-    </div><!--/end of the body-->
+		<!-- content division -->
+       <!-- first slide -->
+			     <div id="firstslide" >  
+                     
+                     <h2 id="intro">About me</h2>
+                     <h2 id="intro5">My name is Alex.</h2> <p id="intro5">I pursue dream to become a web designer. I live in Seattle, Washington and almost graduated from Cascadia College in Bothell. 
+                     You can simply find me on facebook, github or instagram</p>
+                     
+        <form id="emailForm" class="emailForm" name="emailForm" action="javascript:void(0);">
+                            
+            <div>
+            <h3 id="emailHeader">Send me a message</h3>
+                <div id="emailStatus"></div>
+                <label class="fullname">Name <input id="formName" name="formName" value=""/></label>
+                 <label class="emailAddress">Your Email <input id="formEmail" type="email" name="formEmail" /></label>
+                <div class="message">Message <textarea rows="1" cols="1" id="formMessage" name="formMessage"></textarea></div>
+            
+                <button class="btn submitBtn" onclick="sendEmailRequest();">Send Message</button>
+                <div class="emailMe"><a href="mailto:usalex93@gmail.com"> or just email me<span class="hideMobile"> at <span class="email">usalex93@gmail.com</span></span></a></div>
+            </div>
+    </form>
+ 
+                </div>
+                </div>
+			<!--/main-->
+		
+	
+        
+    <!--/end of the body-->
+
+    <!-- file for js -->
+<script src="javascript/main.js"></script>
+<script src="javascript/myparallax.js"></script> 
+    
 	
 </body>
 </html>

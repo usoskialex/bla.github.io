@@ -10,119 +10,122 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	
 	<!-- css -->
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/responsive.css" media="screen and (max-width: 900px)">
+	<link rel="stylesheet" href="css/main2.css">
+	<link rel="stylesheet" href="css/responsivemain.css">
     <link rel="stylesheet" href="css/style.css">
-    
+    <link rel="stylesheet" href="fontstylemain/style.css">
     
     <!--CDN link for  TweenMax-->
 <script src="javascript/TweenMax.min.js"></script>
+    <!--jQuery-->
+<script src="javascript/jquery-3.3.1.min.js"></script>
+<script>
+  
+            $(document).ready(function() {
+                
+                $(".link").click(function() {
+                                
+            var link = $(this).attr("href"); 
+                    
+                    $('html, body').animate({
+                        scrollTop: $(link).offset().top
+                    });
+                });
+            });
+</script>
     
         <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato|Nunito" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Aldrich|Special+Elite" rel="stylesheet">
+    
+    
     
 </head>
 <body>
 
 	<!-- HEADER -->
-	<div class="header"><div class="section-inner">
-		<h1>ALIAKSANDR USOSKI</h1>
-        
+	<div class="header">
+		<h1>Alex Usoski</h1>
+        <h3> UX\UI dreamer designer</h3>
         <div class="iconset"> 
-            <span class="icon-facebook2"></span>
-            <span class="icon-github"></span>
-            <span class="icon-instagram"></span>
+            <a href="https://www.facebook.com/profile.php?id=100006928360380&fref=pymk"><span class="icon-facebook2"></span></a><a href="https://github.com/usoskialex">
+            <span class="icon-github"></span></a>
         </div>
 
-	</div></div>
-	
-	<!-- NAVIGATION -->
-    <nav class="nav">
-      <ul class="nlist">
-        <li class="nItem"><span class="icon-pacman"></span><a href="new.html">HOME</a></li>
-        <li class="nItem"><span class="icon-evil2"></span><a href="animals.html">Animals Playground</a></li>
-        <li class="nItem"><span class="icon-leaf"></span><a href="gallery.html">GALLERY</a></li>
-        <li class="nItem"><span class="icon-leaf"></span><a href="new.html">Experimental design</a></li>
-      </ul>
-    </nav>
-	
-	<!-- BODY -->
-	<div class="body-content"><div class="section-inner">
-		
-		<!-- content division -->
-		<div class="thirds clearfix">
-			
-			<!-- 1st pic -->
-			<div class="one-third mobile-collapse">
-				<img src="images/town_medium.jpg" srcset="images/town_large.jpg 600w, images/town_medium.jpg 400w, images/town_small.jpg 240w" sizes="(max-width: 768px) 400px, (min-width:320px) and (max-width:620px) 240px" alt="night town">
-				<h2>Town</h2>
-				<p>Saule ... , ostendit quod hoc quidem ... hoc quod dixit, ... potuit adiutorium mihi, et educat me in tota vita nova facio certus ut Im 'non invenit. Ego quidem illius memini Saul. Gus sit amet interfíciat mei tota familia. Nunc opus est mihi iste. Saul ... nunc Saule. </p>
-			</div>
-			
-			<!-- 2nd pic -->
-			<div class="one-third one-third-second mobile-collapse">
-				<img src="images/candle_medium.jpg" srcset="images/candle_large.jpg 600w, images/candle_medium.jpg 400w, images/candle_small.jpg 240w" sizes="(max-width: 768px) 400px, (min-width:320px) and (max-width:620px) 240px"  alt="a candle" />
-				<h2>Candle</h2>
-				<p>Jackson Isai? Tu quoque ... A te quidem a ante. Vos scitis quod blinking res Ive 'been vocans super vos? Et conteram illud, et conteram hoc. Maledicant druggie excors. Iam hoc tu facere conatus sum ad te in omni tempore? </p>
-			</div>
-			
-			<!-- 3rd pic -->
-			<div class="one-third one-third-last mobile-collapse">
-				<img src="images/tokyo_large.jpg" srcset="images/tokyo_large.jpg 600w, images/tokyo_medium.jpg 400w, images/tokyo_small.jpg 240w" sizes="(max-width: 768px) 600px, (min-width:320px) and (max-width:620px) 240px" alt="Tokyo bay" />
-				<h2>Tokyo</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div>
-			
-		</div>
-		<div id="move"><span class="icon-pacman"></span>
-        </div>
+            <a href="#firstslide" class="link">Welcome</a>
         
-		<!-- two-columns -->
-		<div class="two-columns clearfix">
-			
-			<!-- main -->
-			<div class="main mobile-collapse">
-				
-				<h2>MAIN CONTENT</h2>
-				
-				<p>Blowfish librantur in se quatuor, quinquies maior quam normalis, et quare? Quare id faciam? Ut terrorem facit, qui quid. Terrent! Ut alter, scarier pisces agminis off. Et quod tu es? Vos blowfish. Tu iustus in omnibus visio. Vides ... suus ' suus 'non aliud aerem. Nunc ... qui cum partibus blowfish Isai? Tu damnare ius. Vos blowfish. Dicere iterum. Dicere illam quasi velis eam. Es BLOWFISH! </p>
-				
-                
-                <svg width="300" height="200" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" class="ms">
- <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
- <g>
-  <title>Moon and stars</title>
-  <polygon class="svgstar1" transform="rotate(-16.303457260131836 83.83296966552737,46.89916229248048) " stroke-width="5" stroke="#000000" points="83.83297024709492,23.104549575466454 90.01804076829497,40.89820652611347 108.8521060623867,41.28201575921801 93.84062457321163,52.662909771978214 99.29564655009506,70.69377387387988 83.83297024709492,59.933896245478834 68.37029394409478,70.69377387387988 73.82531592097821,52.662909771978214 58.81383443180314,41.28201575921801 77.64789972589486,40.89820652611347 83.83297024709492,23.104549575466454 90.01804076829497,40.89820652611347 " strokeWidth="5" strokecolor="#000000" fill="#FF0000" orient="point" r2="10.52267" r="26.30668" point="5" shape="star" id="svg_8" cy="49.41123" cx="83.83297"/>
-  <polygon class="svgstar2" transform="rotate(23.761804580688477 145.44549560546884,82.77585601806638) " stroke="#000000" stroke-width="5" points="145.44548416137695,61.76668357849121 150.38908767700195,77.47737884521484 165.44272232055664,77.81625747680664 153.4443702697754,87.86488342285156 157.80446243286133,103.7850227355957 145.44548416137695,94.28471755981445 133.08652114868164,103.7850227355957 137.44659805297852,87.86488342285156 125.44826126098633,77.81625747680664 140.50189590454102,77.47737884521484 145.44548416137695,61.76668357849121 150.38908767700195,77.47737884521484 " strokeWidth="5" strokecolor="#000000" fill="#FF0000" orient="point" r2="6.01115" r="15.02788" point="5" shape="star" id="svg_9" cy="47.12928" cx="176.25174"/>
-  <polygon class="svgstar3" transform="rotate(23.596445083618164 135.17672729492193,34.5136795043945) " stroke-width="5" stroke="#000000" points="135.1767338995528,12.28400395375635 140.95502125120444,28.90739774451996 158.55039722889273,29.265964397801188 144.52619923128879,39.89835342214828 149.62245227868192,56.74335359187199 135.1767338995528,46.691137599766215 120.7310155204237,56.74335359187199 125.82726856781683,39.89835342214828 111.80307057021287,29.26596439780119 129.39844654790116,28.90739774451996 135.1767338995528,12.28400395375635 140.95502125120444,28.907397744519958 " strokeWidth="5" strokecolor="#000000" fill="#FF0000" orient="point" r2="9.83061" r="24.57652" point="5" shape="star" id="svg_10" cy="36.86053" cx="135.17673"/>
-  <polygon class="svgstar4" transform="rotate(30.94401741027832 82.12150573730466,102.90991973876955) " stroke="#000000" stroke-width="5" points="82.12151516291397,82.64322372018887 87.91739100943596,97.79870793878126 105.56632232666016,98.1256062130924 91.49943802841244,107.81910412751586 96.6111998948536,123.1766128540039 82.12151516291397,114.01205389086226 67.63182066224363,123.1766128540039 72.74359229741549,107.81910412751586 58.67669823043707,98.1256062130924 76.32563931639197,97.79870793878126 82.12151516291397,82.64322372018887 87.91739100943596,97.79870793878126 " strokeWidth="5" strokecolor="#000000" fill="#FF0000" orient="point" r2="7.70109" r="19.25273" point="5" shape="star" id="svg_14" cy="107.60082" cx="87.25589"/>
-  <polygon class="svgstar5" stroke-width="5" stroke="#000000" points="107.79339328490865,71.34279008207902 111.22125260453332,81.20430299440804 121.6593755044232,81.41701585712251 113.33978617271447,87.72447888015228 116.36304158397034,97.71745557148313 107.79339328490865,91.75416919016968 99.22374498584695,97.71745557148313 102.24700039710282,87.72447888015228 93.9274110653941,81.41701585712251 104.36553396528397,81.20430299440804 107.79339328490865,71.34279008207902 111.22125260453332,81.20430299440804 " strokeWidth="5" strokecolor="#000000" fill="#FF0000" orient="point" r2="5.83182" r="14.57956" point="5" shape="star" id="svg_15" cy="85.92235" cx="107.79339"/>
-  <path class="svgmoon" d="m231.01843,18.60497c-0.00153,1.04361 -0.69676,1.14097 -1.71147,1.14097c-0.80171,0 -1.67798,0 -2.58772,0c-0.83519,0 -1.67038,0 -2.75848,0c-0.92914,0 -1.65512,-0.0235 -2.62234,0.00152c-0.78876,0.0204 -1.6873,0.27958 -2.45802,0.73707c-0.72414,0.42983 -1.7473,0.34163 -2.48314,0.41455c-0.98344,0.09746 -1.34422,0.96401 -1.97046,1.15257c-0.87952,0.26483 -1.64285,0.60437 -2.61473,0.92704c-0.8069,0.26789 -1.02138,0.83748 -1.34331,1.77535c-0.26251,0.76476 -1.41071,0.80847 -1.86739,1.43534c-0.53253,0.73099 -0.91187,1.38487 -1.75482,1.57226c-0.91003,0.2023 -1.58859,0.68198 -2.29868,1.33874c-0.5602,0.51814 -1.50328,0.87365 -2.02998,1.48479c-0.46758,0.54251 -0.99771,1.07035 -1.16493,1.96399c-0.14555,0.77782 -0.93053,1.26366 -1.33095,2.02941c-0.36803,0.70382 -0.71458,1.53866 -1.27484,2.1861c-0.54753,0.63273 -0.89432,1.20971 -1.14098,2.11308c-0.22937,0.84004 -0.43745,1.39388 -0.7211,2.58012c-0.2086,0.87239 -0.64673,1.52504 -1.09837,2.36238c-0.46088,0.85447 -1.12665,1.28455 -1.37524,2.03873c-0.28995,0.87963 -0.64377,1.66623 -0.9493,2.54057c-0.28696,0.82117 -0.99335,1.28925 -1.24194,2.09768c-0.2269,0.73788 -0.62419,1.60058 -1.19594,2.39186c-0.43488,0.60186 -1.04825,1.42135 -1.08087,2.29697c-0.03354,0.89998 0.10893,1.83992 -0.00514,2.61948c-0.12781,0.87344 -0.97098,1.50328 -1.13583,2.3795c-0.14909,0.79239 0,1.7784 0,2.58069c0,0.93141 0,1.84457 0,2.59533c0,1.04456 0,1.81434 0,2.70715c0,1.01147 0,1.88051 0,2.61834c0,0.95385 0,1.87518 0,2.77941c0,0.81998 -0.27727,1.82823 0.01216,2.67291c0.25456,0.7429 0.99892,1.16134 1.13394,2.13895c0.11217,0.81213 0.71541,1.45197 1.07574,2.28194c0.38425,0.88503 0.95683,1.54253 1.15999,2.38387c0.22302,0.92363 -0.11958,1.86736 0.10631,2.64154c0.25151,0.86192 0.72293,1.65342 1.07593,2.48067c0.3139,0.73564 0.89601,1.43274 1.23663,2.19218c0.38527,0.85899 1.23343,1.42232 1.68864,2.05375c0.53252,0.73866 0.71812,1.73792 1.19421,2.28194c0.63052,0.7205 1.24318,1.2786 1.58519,2.08266c0.36301,0.85342 0.97502,1.19621 1.8286,1.47262c0.89125,0.28861 1.87909,0.22804 2.71075,0.8291c0.51907,0.37514 0.86354,1.23454 1.73599,1.75311c0.75003,0.44581 1.40105,0.88871 2.45613,1.09952c0.77946,0.15574 1.86115,-0.08064 2.67825,0.25539c0.65251,0.26833 1.50203,0.8597 2.28194,0.92704c0.94757,0.08181 1.84969,-0.00755 2.62424,0.42616c0.84534,0.47335 1.52428,0.73251 2.49037,0.73859c0.74846,0.00471 1.79012,-0.03437 2.72615,0.01217c0.61424,0.03054 1.74387,0.30663 2.40422,0.55831c0.97757,0.37259 1.8371,0.5644 2.77428,0.57049c0.86256,0.0056 1.61411,0 2.40213,0c1.09895,0 2.03549,0 2.94827,0c0.79868,0 1.71146,0 2.62424,0c0.91278,0 1.83495,0.08227 2.55121,-0.04108c0.99345,-0.17107 1.72664,-0.70393 2.67293,-0.96127c0.72235,-0.19644 1.72409,-0.07087 2.50557,-0.1797c0.93222,-0.12983 1.54367,-0.80627 2.52687,-1.05882c0.79723,-0.20477 1.84265,0.34093 2.59839,-0.23124c0.67802,-0.51334 0.82632,-1.5728 1.71146,-1.90162c0.7182,-0.26681 1.60049,0.14378 2.61473,-0.21394c0.71483,-0.25212 1.26573,-1.0583 2.01152,-1.10503c1.11414,-0.06982 1.89011,0.45322 2.79007,-0.01218c0.62097,-0.32112 1.00455,-0.91612 1.85846,-1.1461c0.80978,-0.21809 0.93619,-1.39803 1.50055,-1.79152c0.81934,-0.57125 1.32129,-1.1268 1.83774,-1.62646c0.61536,-0.59535 1.3735,-1.00414 1.3205,-1.14078c-0.32138,-0.82838 -1.72934,0.42309 -2.38846,0.81693c-0.74957,0.44789 -1.84561,0.16775 -2.60748,0.5142c-0.72299,0.32878 -1.46501,0.95081 -2.34718,0.95081c-0.88557,0 -1.00484,0.87493 -1.77249,1.1288c-0.8436,0.27898 -1.83774,0.01217 -2.75508,0.01217c-0.92191,0 -1.70631,0 -2.59532,0c-0.91278,0 -1.71146,0 -2.66531,0c-0.96754,0 -1.75558,0 -2.67255,0c-0.97552,0 -1.75995,0 -2.64896,0c-0.91258,0 -1.87956,0 -2.6364,0c-0.99094,0 -1.91075,0 -2.72617,0c-0.95081,0 -1.87825,-0.156 -2.60599,0.32404c-0.73991,0.48807 -1.41248,0.86456 -2.29506,0.81694c-0.90359,-0.04875 -1.37592,-0.83564 -2.26883,-1.14098c-0.77702,-0.26571 -0.9776,-0.94104 -1.7997,-1.09989c-1.08963,-0.21055 -1.91354,0.07832 -2.66682,-0.36511c-0.82533,-0.48586 -1.60197,-0.58582 -2.45766,-0.82207c-0.75362,-0.20807 -1.12389,-0.80305 -1.74112,-1.38857c-0.6871,-0.6518 -0.69974,-1.56885 -1.64586,-1.89078c-0.72273,-0.24592 -1.81747,-0.44534 -1.9155,-1.27941c-0.09535,-0.81135 -0.71043,-1.0632 -1.36765,-1.78905c-0.5258,-0.58072 -0.83705,-1.52255 -1.23987,-2.28194c-0.35619,-0.67146 -1.31113,-1.14913 -1.81775,-1.8866c-0.50905,-0.741 0.01837,-1.72128 -0.1624,-2.62347c-0.16327,-0.81485 -0.94061,-1.4201 -1.10504,-2.3312c-0.15984,-0.88563 -0.27744,-1.76868 -0.66785,-2.33519c-0.56364,-0.81789 -0.43607,-1.83913 -0.48529,-2.69726c-0.04877,-0.85003 -0.85443,-1.14799 -1.16475,-1.76414c-0.43251,-0.85878 -1.04761,-1.54025 -1.11719,-2.34336c-0.07706,-0.88948 0,-1.85446 0,-2.76724c0,-0.81541 0.00009,-1.71146 0,-2.60751c-0.00011,-0.92951 -0.04382,-1.76353 -0.5705,-2.5031c-0.51881,-0.72855 -0.57048,-1.59679 -0.57048,-2.43198c0,-0.90061 0,-1.81187 0,-2.72617c0,-0.80381 0,-1.68769 0,-2.66227c0,-0.78442 0,-1.71146 0,-2.62994c0,-0.91012 -0.18567,-1.84166 0.19016,-2.6946c0.32025,-0.72681 0.79518,-1.442 1.14098,-2.28194c0.3282,-0.79722 0.85892,-1.50174 0.92703,-2.25817c0.09326,-1.03564 0.8143,-1.59199 1.16475,-2.37094c0.35065,-0.77939 0.53716,-1.51607 1.14098,-2.40688c0.36166,-0.53357 0.72066,-1.50834 1.33113,-2.28195c0.48045,-0.60885 0.83403,-1.36644 0.951,-2.20569c0.1275,-0.91474 0.78989,-1.19519 1.27122,-1.76566c0.59698,-0.70752 1.66805,-0.05125 2.67444,-0.42615c0.71559,-0.26657 0.78368,-1.31763 1.10333,-2.04671c0.4328,-0.98711 1.036,-1.5426 1.79665,-1.92292c0.86372,-0.43186 1.46661,-1.10421 2.28195,-1.5213c0.74513,-0.38117 1.53052,-0.79734 2.39604,-1.1927c0.64835,-0.29615 1.61142,-0.55031 2.0294,-1.39351c0.36967,-0.74574 0.67307,-1.68156 1.5076,-2.07201c0.86639,-0.40536 1.48914,-0.68408 2.16766,-1.35072c0.625,-0.61405 1.43974,-1.01963 2.3582,-1.02707c0.7516,-0.00609 1.57846,-0.01193 2.53143,-0.49747c0.70032,-0.3568 1.57254,-0.88341 2.1283,-1.08773c0.84174,-0.30945 1.98369,-0.15597 2.80832,-0.69523c0.56229,-0.3677 0.81447,-1.23748 1.53955,-1.79817c0.66956,-0.51775 1.56389,-0.48453 2.536,-0.48529c0.87703,-0.00069 1.41937,0 0.58875,0c-0.91278,0 -1.71146,0 -2.62424,0c-0.91278,0 -1.82571,-0.01648 -2.62424,0c-0.99556,0.02054 -1.98935,0.249 -2.51622,0.40238c-0.85057,0.24761 -1.88493,0.6203 -2.77504,0.71482c-0.96072,0.10202 -1.80887,0.04276 -2.58754,0.42615c-0.67445,0.33208 -1.66733,0.73859 -2.39148,0.73859c-0.96011,0 -1.87476,-0.2041 -2.83264,0.00152c-0.77098,0.1655 -0.36943,1.43995 -1.00711,2.09026c-0.58415,0.59571 -1.56419,0.36135 -2.15187,0.92875c-0.57791,0.55798 -1.64633,0.70067 -2.22185,0.99664c-0.97536,0.5016 -1.52179,1.30847 -2.31085,1.67552c-0.72137,0.33556 -1.30223,0.96298 -2.11441,1.15314l-0.1797,0.65568l-0.65569,0.5142" id="svg_26" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="#bf0000"/>
-  <ellipse id="svg_27" cy="-4.21448" cx="424.98376" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="#7fff00"/>
-  <ellipse id="svg_28" cy="52.83414" cx="201.35314" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="#7fff00"/>
-  <ellipse id="svg_29" cy="75.65359" cx="201.35314" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="#7fff00"/>
-  <ellipse id="svg_30" cy="53.97512" cx="201.35314" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="#7fff00"/>
-  <ellipse id="svg_31" cy="53.97512" cx="201.35314" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="#7fff00"/>
-  <ellipse id="svg_32" cy="98.47304" cx="211.62189" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="#7fff00"/>
- </g>
-</svg>
-
-			</div><!--/main-->
-
-		</div>
-		
-	
+            <a href="#secondslide" class="link">Projects</a>
         
-    </div>
+            <a href="#thirdslide" class="link">Contant me</a>
+        
+        <a href="#"><span class="icon-home3"></span></a>
+	</div>
+	
+	<!-- NAVIGATION --> 
+
+	
+	<!-- BODY --><div class="mainsection">
+		
     
-    </div><!--/end of the body-->
-    <a href="#" id="scrolltotop" style="display: block, width: 100%">
-    "↑ "
-        <span>Scroll to top</span>
-    </a>
+		<!-- content division -->
+       <!-- first slide -->
+			     <div id="firstslide">  
+				<h2 id="intro">Hi! My name is Alex and I try to become good UX/UI designer </h2>
+                     <h2 id="intro3">Looking for a job right now</h2>
+                     
+                     <div id=lists></div>
+                     <ul id="intro2"><strong>What I'm interested in:</strong>
+                        <li>Front-End Development</li>
+                         <li>SVG animation</li>
+                         <li>Responsive design</li>
+                         <li>Photography</li>
+                     </ul>
+                     <ul id="intro4"><strong>Skills:</strong>
+                        <li>Photoshop</li>
+                         <li>HTML/CSS/Javascript</li>
+                         <li>Javascript libraries</li>
+                     </ul>
+                    </div>
+            
+			<!-- 2nd slide -->
+			<div id="secondslide">
+                <h2 id="intro">Projects</h2>
+                <div class="imageset">
+                <a href="new.html">
+				<img src="images/indexpics/fantasy1920.jpg" srcset="images/indexpics/fantasy640.jpg 480w, images/indexpics/fantasy1280.jpg 700w, images/indexpics/fantasy1920.jpg 1200w" sizes="(min-width: 768px) 600px, (min-width:620px) and (max-width: 767px) 400px, (min-width: 320px) and (max-width:766px) 240px"  alt="Experimental design" /><figcaption>First </figcaption>
+                </a>
+                <a href="gallery.html">
+                <img src="images/indexpics/galllarge.jpg" srcset="images/indexpics/galsmall.jpg 480w, images/indexpics/gallmed.jpg 700w, images/indexpics/galllarge.jpg 1200w" sizes="(min-width: 768px) 600px, (min-width:620px) and (max-width: 767px) 400px, (min-width: 320px) and (max-width:766px) 240px" alt="Picture gallery" />
+                    <figcaption>Gallery </figcaption>
+                    </a>
+                <a href="animals.html">
+                <img src="images/indexpics/largedino.png" srcset="images/indexpics/smalldino.png 480w, images/indexpics/mediumdino.png 700w, images/indexpics/largedino.png 1200w" sizes="(min-width: 768px) 600px, (min-width:620px) and (max-width: 767px) 400px, (min-width: 320px) and (max-width:766px) 240px" alt="Tokyo bay" /><figcaption>Playground </figcaption>
+                    </a>
+                    </div>
+				<p id="intro4">Click on the images to go directly to the project pages! </p>
+			</div>
+			
+			<!-- 3rd slide -->
+			<div id="thirdslide">
+                <h2 id="intro">Contant me</h2>
+                <h2 id="intro4">Everyone likes buttons, right?</h2>
+                <h2 id="intro2"> Click to know more about me --></h2>
+                <a href="about.html" class="button" >Click me</a>
+				
+			</div>
+
+        </div>
+			<!--/main-->
+		
+	
+        
+    <!--/end of the body-->
 
     <!-- file for js -->
 <script src="javascript/main.js"></script>
+<script src="javascript/myparallax.js"></script> 
+
+    
 	
 </body>
 </html>

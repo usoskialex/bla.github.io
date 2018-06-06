@@ -1,0 +1,382 @@
+
+@media screen and (min-width: 1024px)  {
+    
+
+a {
+    text-decoration: none;
+    color: lemonchiffon;
+}
+
+h2, p {
+    margin:0 0 1em 0; 
+    padding: 0 0 1em 0; 
+    line-height: 2em;
+    text-align: justify;
+}
+
+p {
+    font-size: 2em;
+    margin: 11px 11px 11px 11px;
+}
+h1 {
+    font-family: Aldrich;
+}
+
+h2 {
+    text-align: center !important;
+    font-family: Aldrich;
+    padding-top:30px;
+}
+
+h3 {
+    margin-left: 2em;
+}
+
+body {
+	font-family: 'Special Elite', sans-serif;
+	padding: 0;
+	margin: 0;
+    background-color: #453e3e;
+}
+
+
+img {
+	max-width: 100%;
+	height: auto;
+	margin: 0 0 10px 0;
+}
+
+/* Section Inner */
+div.mainsection {
+	padding: 0 10px;
+	margin-left: 20%;
+    background-color: transparent;
+}
+
+/* Header */
+div.header {
+	background-color: #35404f;
+	padding: 40px 0;
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    z-index: 1;
+}
+a.link {
+    display: block;
+    padding-top: 10%;
+    padding-left: 5%;
+    line-height: 8vh !important;
+    font-size: 40px;
+}
+
+/* Navigation */
+
+
+/* Body Content */
+div.body-content {
+    margin-right: 20%;
+	padding: 50px 0;
+	background-color: #FFF;
+}
+
+
+
+/* Main Column */
+div.main {
+	float: left;
+    
+}
+
+#intro {
+    font-size: 3em;
+    margin: 0;
+    padding-left: 5%;
+}
+
+#intro2 {
+    font-size: 2.5em;
+    float:left;
+    padding-left: 5%;
+    margin-bottom:1%;
+}
+
+#intro3 {
+    float: right;
+    padding-right:5%;
+    font-style: italic;
+    
+}
+
+#intro4 {
+    font-size: 2.5em;
+    margin-bottom:1%;
+    padding-right: 5%;
+}
+
+#lists {
+    display:inline-block;
+    width:100%;
+}
+
+    img {
+        width: 30%;
+    }
+
+}
+
+
+
+@media screen and (min-width: 501px) and (max-width: 1023px) {
+    #firstslide,#secondslide,#thirdslide,#forthslide{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    font-family: "Special Elite";
+}
+
+#firstslide {
+    background-color: #e45f56;
+}
+
+#secondslide{
+    background-color: #a3d39c;         
+}
+
+#thirdslide{
+    background-color: #7accc8;
+}
+
+#forthslide{
+    background-color: #4aaaa5;
+}
+
+a {
+    text-decoration: none;
+    color: lemonchiffon;
+    font-size: 1.5em;
+}
+
+h2, p {
+    margin:0 0 1em 0; 
+    padding: 0 0 1em 0; 
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+p {
+    font-size: 1.8em;
+    margin: 11px 11px 11px 11px;
+}
+h1 {
+    font-family: Aldrich;
+}
+
+h2 {
+    text-align: center !important;
+    font-family: Aldrich;
+    padding-top:30px;
+}
+
+h3 {
+    margin-left: 1em;
+}
+
+body {
+	font-family: 'Special Elite', sans-serif;
+	padding: 0;
+	margin: 0;
+    background-color: #453e3e;
+    animation: slide 4s linear infinite;
+}
+
+
+img {
+	max-width: 100%;
+	height: auto;
+	margin: 0 0 10px 0;
+}
+
+/* Section Inner */
+div.mainsection {
+	padding: 0 10px;
+	margin-left: 20%;
+    background-color: transparent;
+}
+
+/* Header */
+div.header {
+	background-color: #35404f;
+	padding: 40px 0;
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    z-index: 1;
+}
+a.link {
+    display: block;
+    padding-top: 5%;
+    padding-left: 5%;
+    line-height: 5vh;
+}
+
+/* Navigation */
+
+
+/* Body Content */
+div.body-content {
+    margin-right: 20%;
+	padding: 50px 0;
+	background-color: #FFF;
+}
+
+/* Thirds */
+div.thirds {
+	padding-bottom: 50px;
+}
+
+div.one-third {
+	width: 30%;
+	float: left;
+	margin-right: 5%;
+}
+
+
+/* Main Column */
+div.main {
+	float: left;
+    
+}
+
+#intro {
+    font-size: 3em;
+    margin: 0;
+    padding-left: 5%;
+}
+
+#intro2 {
+    font-size: 1.5em;
+    float:left;
+    padding-left: 5%;
+    margin-bottom:1%;
+}
+
+#intro3 {
+    float: right;
+    padding-right:5%;
+    font-style: italic;
+    
+}
+
+#intro4 {
+    font-size: 1.5em;
+    margin-bottom:1%;
+    padding-right: 5%;
+}
+
+#lists {
+    display:inline-block;
+    width:100%;
+}
+
+/*text animation*/
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes logo {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+/* Standard syntax */
+@keyframes logo {
+    from {background-color: #325965;}
+    to {background-color: #848d61;}
+}
+
+/* changing color header */
+.header {
+    animation-name: logo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+    
+.icon-home3:before {
+    content: "\e902";
+    font-size: 3em !important;
+    margin-top: 100% !important;
+    margin-left: 35% !important;
+    position: absolute !important;
+}
+    img {
+        width: 45%;
+    }
+
+    
+}
+
+	
+@media screen and (min-width: 320px) and (max-width: 500px) {
+	
+#intro {
+    font-size: 2em;
+    margin: 0;
+    padding-left: 5%;
+    position: sticky;
+}
+
+#intro2 {
+    font-size: 2em;
+    margin-left: 5%;
+    margin-bottom:1%;
+}
+
+#intro3 {
+    padding-right:5%;
+    font-style: italic;
+    float:left;
+    
+}
+    ul li {
+        margin-left: 10%;
+    }
+
+#intro4 {
+    font-size: 2em;
+    margin-bottom:1%;
+    margin-left: 5%;
+}
+    
+    #lists {
+    display:block;
+    width:100%;
+}
+    
+    div.mainsection {
+	padding: 0 ;
+	margin: 0;
+    background-color: transparent;
+}
+
+/* Header */
+div.header {
+	background-color: #35404f;
+	padding: 0;
+    position: sticky;
+    width: 100%;
+    height: 75%;
+    z-index: 1;
+}
+    
+    .icon-home3:before {
+    content: "\e902";
+    font-size: 2em !important;
+    margin-top: 1% !important;
+    margin-left: 65% !important;
+    position: sticky !important;
+}
+    
+    img {
+        width: 80% !important;
+    }
+    
+    
+}

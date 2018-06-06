@@ -31,7 +31,7 @@ div.one-third-last {
 
 @media screen and (min-width: 768px) {
 	.nlist {
-		width: 90%;
+		width: 100%;
 		font-size: 100%;
 		margin: auto;
 	}
@@ -94,7 +94,6 @@ div.one-third-last {
 	
 	div.mobile-collapse {
 		width: auto;
-		float: none;
 		margin-right: 0;
 	}	
     
